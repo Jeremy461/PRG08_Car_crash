@@ -20,7 +20,7 @@ class RockPiece extends GameObject {
         
         this.div.style.width = "21px";
         this.div.style.height = "21px";
-        this.div.style.backgroundImage = "url('../dist/images/rock"+piece+".png')";
+        this.div.style.backgroundImage = "url('../docs/images/rock"+piece+".png')";
         this.div.style.transform = "translate("+offsetX+"px, "+offsetY+"px)";
         
         this.offsetX = offsetX;
